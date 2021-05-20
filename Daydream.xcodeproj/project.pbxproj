@@ -14,6 +14,7 @@
 		6105E4302655EABF00E5A3A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6105E42E2655EABF00E5A3A7 /* Main.storyboard */; };
 		6105E43C2655EAC000E5A3A7 /* DaydreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6105E43B2655EAC000E5A3A7 /* DaydreamTests.swift */; };
 		6105E4472655EAC000E5A3A7 /* DaydreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6105E4462655EAC000E5A3A7 /* DaydreamUITests.swift */; };
+		6105E4582655FE1100E5A3A7 /* DayCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6105E4572655FE1100E5A3A7 /* DayCycle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		6105E4422655EAC000E5A3A7 /* DaydreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaydreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6105E4462655EAC000E5A3A7 /* DaydreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaydreamUITests.swift; sourceTree = "<group>"; };
 		6105E4482655EAC000E5A3A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6105E4572655FE1100E5A3A7 /* DayCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCycle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				6105E4312655EABF00E5A3A7 /* Info.plist */,
 				6105E4322655EABF00E5A3A7 /* Daydream.entitlements */,
 				6105E42B2655EABF00E5A3A7 /* Preview Content */,
+				6105E4572655FE1100E5A3A7 /* DayCycle.swift */,
 			);
 			path = Daydream;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6105E4582655FE1100E5A3A7 /* DayCycle.swift in Sources */,
 				6105E4282655EABE00E5A3A7 /* ContentView.swift in Sources */,
 				6105E4262655EABE00E5A3A7 /* AppDelegate.swift in Sources */,
 			);
