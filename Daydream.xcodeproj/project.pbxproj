@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6105E4262655EABE00E5A3A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6105E4252655EABE00E5A3A7 /* AppDelegate.swift */; };
+		6105E4282655EABE00E5A3A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6105E4272655EABE00E5A3A7 /* ContentView.swift */; };
+		6105E42A2655EABF00E5A3A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6105E4292655EABF00E5A3A7 /* Assets.xcassets */; };
+		6105E42D2655EABF00E5A3A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6105E42C2655EABF00E5A3A7 /* Preview Assets.xcassets */; };
+		6105E4302655EABF00E5A3A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6105E42E2655EABF00E5A3A7 /* Main.storyboard */; };
+		6105E43C2655EAC000E5A3A7 /* DaydreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6105E43B2655EAC000E5A3A7 /* DaydreamTests.swift */; };
+		6105E4472655EAC000E5A3A7 /* DaydreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6105E4462655EAC000E5A3A7 /* DaydreamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6105E4382655EAC000E5A3A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6105E41A2655EABE00E5A3A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6105E4212655EABE00E5A3A7;
+			remoteInfo = Daydream;
+		};
+		6105E4432655EAC000E5A3A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6105E41A2655EABE00E5A3A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6105E4212655EABE00E5A3A7;
+			remoteInfo = Daydream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6105E4222655EABE00E5A3A7 /* Daydream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Daydream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6105E4252655EABE00E5A3A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6105E4272655EABE00E5A3A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6105E4292655EABF00E5A3A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6105E42C2655EABF00E5A3A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6105E42F2655EABF00E5A3A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6105E4312655EABF00E5A3A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6105E4322655EABF00E5A3A7 /* Daydream.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Daydream.entitlements; sourceTree = "<group>"; };
+		6105E4372655EAC000E5A3A7 /* DaydreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaydreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6105E43B2655EAC000E5A3A7 /* DaydreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaydreamTests.swift; sourceTree = "<group>"; };
+		6105E43D2655EAC000E5A3A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6105E4422655EAC000E5A3A7 /* DaydreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaydreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6105E4462655EAC000E5A3A7 /* DaydreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaydreamUITests.swift; sourceTree = "<group>"; };
+		6105E4482655EAC000E5A3A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6105E41F2655EABE00E5A3A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6105E4342655EAC000E5A3A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6105E43F2655EAC000E5A3A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6105E4192655EABE00E5A3A7 = {
+			isa = PBXGroup;
+			children = (
+				6105E4242655EABE00E5A3A7 /* Daydream */,
+				6105E43A2655EAC000E5A3A7 /* DaydreamTests */,
+				6105E4452655EAC000E5A3A7 /* DaydreamUITests */,
+				6105E4232655EABE00E5A3A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6105E4232655EABE00E5A3A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6105E4222655EABE00E5A3A7 /* Daydream.app */,
+				6105E4372655EAC000E5A3A7 /* DaydreamTests.xctest */,
+				6105E4422655EAC000E5A3A7 /* DaydreamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6105E4242655EABE00E5A3A7 /* Daydream */ = {
+			isa = PBXGroup;
+			children = (
+				6105E4252655EABE00E5A3A7 /* AppDelegate.swift */,
+				6105E4272655EABE00E5A3A7 /* ContentView.swift */,
+				6105E4292655EABF00E5A3A7 /* Assets.xcassets */,
+				6105E42E2655EABF00E5A3A7 /* Main.storyboard */,
+				6105E4312655EABF00E5A3A7 /* Info.plist */,
+				6105E4322655EABF00E5A3A7 /* Daydream.entitlements */,
+				6105E42B2655EABF00E5A3A7 /* Preview Content */,
+			);
+			path = Daydream;
+			sourceTree = "<group>";
+		};
+		6105E42B2655EABF00E5A3A7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6105E42C2655EABF00E5A3A7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6105E43A2655EAC000E5A3A7 /* DaydreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				6105E43B2655EAC000E5A3A7 /* DaydreamTests.swift */,
+				6105E43D2655EAC000E5A3A7 /* Info.plist */,
+			);
+			path = DaydreamTests;
+			sourceTree = "<group>";
+		};
+		6105E4452655EAC000E5A3A7 /* DaydreamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6105E4462655EAC000E5A3A7 /* DaydreamUITests.swift */,
+				6105E4482655EAC000E5A3A7 /* Info.plist */,
+			);
+			path = DaydreamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6105E4212655EABE00E5A3A7 /* Daydream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6105E44B2655EAC000E5A3A7 /* Build configuration list for PBXNativeTarget "Daydream" */;
+			buildPhases = (
+				6105E41E2655EABE00E5A3A7 /* Sources */,
+				6105E41F2655EABE00E5A3A7 /* Frameworks */,
+				6105E4202655EABE00E5A3A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Daydream;
+			productName = Daydream;
+			productReference = 6105E4222655EABE00E5A3A7 /* Daydream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6105E4362655EAC000E5A3A7 /* DaydreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6105E44E2655EAC000E5A3A7 /* Build configuration list for PBXNativeTarget "DaydreamTests" */;
+			buildPhases = (
+				6105E4332655EAC000E5A3A7 /* Sources */,
+				6105E4342655EAC000E5A3A7 /* Frameworks */,
+				6105E4352655EAC000E5A3A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6105E4392655EAC000E5A3A7 /* PBXTargetDependency */,
+			);
+			name = DaydreamTests;
+			productName = DaydreamTests;
+			productReference = 6105E4372655EAC000E5A3A7 /* DaydreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6105E4412655EAC000E5A3A7 /* DaydreamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6105E4512655EAC000E5A3A7 /* Build configuration list for PBXNativeTarget "DaydreamUITests" */;
+			buildPhases = (
+				6105E43E2655EAC000E5A3A7 /* Sources */,
+				6105E43F2655EAC000E5A3A7 /* Frameworks */,
+				6105E4402655EAC000E5A3A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6105E4442655EAC000E5A3A7 /* PBXTargetDependency */,
+			);
+			name = DaydreamUITests;
+			productName = DaydreamUITests;
+			productReference = 6105E4422655EAC000E5A3A7 /* DaydreamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6105E41A2655EABE00E5A3A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					6105E4212655EABE00E5A3A7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					6105E4362655EAC000E5A3A7 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 6105E4212655EABE00E5A3A7;
+					};
+					6105E4412655EAC000E5A3A7 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 6105E4212655EABE00E5A3A7;
+					};
+				};
+			};
+			buildConfigurationList = 6105E41D2655EABE00E5A3A7 /* Build configuration list for PBXProject "Daydream" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6105E4192655EABE00E5A3A7;
+			productRefGroup = 6105E4232655EABE00E5A3A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6105E4212655EABE00E5A3A7 /* Daydream */,
+				6105E4362655EAC000E5A3A7 /* DaydreamTests */,
+				6105E4412655EAC000E5A3A7 /* DaydreamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6105E4202655EABE00E5A3A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6105E4302655EABF00E5A3A7 /* Main.storyboard in Resources */,
+				6105E42D2655EABF00E5A3A7 /* Preview Assets.xcassets in Resources */,
+				6105E42A2655EABF00E5A3A7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6105E4352655EAC000E5A3A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6105E4402655EAC000E5A3A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6105E41E2655EABE00E5A3A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6105E4282655EABE00E5A3A7 /* ContentView.swift in Sources */,
+				6105E4262655EABE00E5A3A7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6105E4332655EAC000E5A3A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6105E43C2655EAC000E5A3A7 /* DaydreamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6105E43E2655EAC000E5A3A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6105E4472655EAC000E5A3A7 /* DaydreamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6105E4392655EAC000E5A3A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6105E4212655EABE00E5A3A7 /* Daydream */;
+			targetProxy = 6105E4382655EAC000E5A3A7 /* PBXContainerItemProxy */;
+		};
+		6105E4442655EAC000E5A3A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6105E4212655EABE00E5A3A7 /* Daydream */;
+			targetProxy = 6105E4432655EAC000E5A3A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6105E42E2655EABF00E5A3A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6105E42F2655EABF00E5A3A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6105E4492655EAC000E5A3A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6105E44A2655EAC000E5A3A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6105E44C2655EAC000E5A3A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Daydream/Daydream.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Daydream/Preview Content\"";
+				DEVELOPMENT_TEAM = YFKL53ZN8Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Daydream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anargu.Daydream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6105E44D2655EAC000E5A3A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Daydream/Daydream.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Daydream/Preview Content\"";
+				DEVELOPMENT_TEAM = YFKL53ZN8Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Daydream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anargu.Daydream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6105E44F2655EAC000E5A3A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YFKL53ZN8Z;
+				INFOPLIST_FILE = DaydreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anargu.DaydreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daydream.app/Contents/MacOS/Daydream";
+			};
+			name = Debug;
+		};
+		6105E4502655EAC000E5A3A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YFKL53ZN8Z;
+				INFOPLIST_FILE = DaydreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anargu.DaydreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daydream.app/Contents/MacOS/Daydream";
+			};
+			name = Release;
+		};
+		6105E4522655EAC000E5A3A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YFKL53ZN8Z;
+				INFOPLIST_FILE = DaydreamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anargu.DaydreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Daydream;
+			};
+			name = Debug;
+		};
+		6105E4532655EAC000E5A3A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YFKL53ZN8Z;
+				INFOPLIST_FILE = DaydreamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anargu.DaydreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Daydream;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6105E41D2655EABE00E5A3A7 /* Build configuration list for PBXProject "Daydream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6105E4492655EAC000E5A3A7 /* Debug */,
+				6105E44A2655EAC000E5A3A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6105E44B2655EAC000E5A3A7 /* Build configuration list for PBXNativeTarget "Daydream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6105E44C2655EAC000E5A3A7 /* Debug */,
+				6105E44D2655EAC000E5A3A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6105E44E2655EAC000E5A3A7 /* Build configuration list for PBXNativeTarget "DaydreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6105E44F2655EAC000E5A3A7 /* Debug */,
+				6105E4502655EAC000E5A3A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6105E4512655EAC000E5A3A7 /* Build configuration list for PBXNativeTarget "DaydreamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6105E4522655EAC000E5A3A7 /* Debug */,
+				6105E4532655EAC000E5A3A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6105E41A2655EABE00E5A3A7 /* Project object */;
+}
